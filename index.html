@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1f232b;
+        }
+
+        .form {
+            background-color: #161b22;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            width: 400px;
+            border-radius: 20px;
+        }
+
+        .image-panel {
+            text-align: center;
+        }
+
+        .image {
+
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 1px solid rgba(128, 128, 128, 0.459);
+            margin-top: 30px;
+        }
+
+        .name-info {
+            text-align: left;
+            position: relative;
+            width: 320px;
+            margin-top: 15px;
+        }
+
+        .name {
+            position: absolute;
+            left: 100px;
+            color: #8b949e;
+            font-size: 22px;
+            font-family: 'Inter Tight', sans-serif;
+        }
+
+        .nickname {
+            position: absolute;
+            left: 100px;
+            top: 26px;
+            color: #8b949e;
+            font-size: 18px;
+            font-family: 'Inter Tight', sans-serif;
+        }
+        .info {
+            position: absolute;
+            top: 60px;
+            left: 100px;
+            color: #8b949e;
+            font-size: 14px;
+            font-family: 'Inter Tight', sans-serif;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .buttonn{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background-color: #292e38;
+            border: none;
+        }
+        .buttonn:hover{
+            transition: all 0.5s ease-in-out 0.1s; 
+            transform: rotate(360deg);
+            background-color: grey;
+
+        }
+        .button-list li{
+            
+            display: inline;
+            padding: 4px;
+        
+        }
+        .button-list{
+            margin-top: 150px;
+            text-align: center;
+       
+        }
+        i{
+            color: grey;
+        }
+        i:hover{
+            color:#292e38;
+            transition: all 0.5s ease-in-out 0.1s; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+
+        <div class="image-info">
+            <div class="image-panel">
+                <img class="image"
+                    src="https://avatars.githubusercontent.com/u/114503053?s=400&amp;u=af777b735e4d84bc836e76153743cbafcd5be528&amp;v=4"
+                    width="200" height="200" alt="@isiksalihh">
+            </div>
+            <div class="name-info">
+                <ul>
+                    <li class="name text"><b>Salih Işık</b></li>
+                    <li class="nickname text">isiksalihh</li>
+                    <li class="info text">electrical-electronic engineer student, try'n to be web developer</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="linkbar">
+            <ul class="button-list">
+                <li><button onclick="location.href='https://www.facebook.com/g4rd1y4n/'" type="button" class="facebook buttonn"><i class="fa-brands fa-facebook fa-2x"></i></button></li>
+                <li><button onclick="location.href='https://twitter.com/isiksalihh'" type="button" class="twitter buttonn"><i class="fa-brands fa-twitter fa-2x"></i></button></li>
+                <li><button onclick="location.href='https://www.linkedin.com/in/salih-işık-97290114b/'" type="button" class="linkedin buttonn"><i class="fa-brands fa-linkedin-in fa-2x"></i></button></li>
+                <li><button onclick="location.href='https://github.com/isiksalihh'" type="button" class="github buttonn"><i class="fa-brands fa-github fa-2x"></i></button></li>
+                <li><button onclick="location.href='https://www.youtube.com/channel/UCVuC3Ocx6vmX-x70n7B3pig'" type ="button" class="youtube buttonn"><i class="fa-brands fa-youtube fa-2x"></i></button></li>
+               
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
